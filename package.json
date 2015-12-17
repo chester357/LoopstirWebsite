@@ -1,0 +1,14 @@
+{
+  "name": "loopstir",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "run"
+  },
+  "author": "Chester Schofield",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}

@@ -1,0 +1,99 @@
+.home-block-1 {
+    /*background-image: url("/images/chicagogreat2.jpg");*/
+    background-color: black;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.home-block-3 {
+    /*background-image: url("/images/chicagogreat2.jpg");*/
+    background-color: white;
+    text-align: center;
+}
+
+.home-title {
+    text-align: center;
+    font-size: 70px;
+}
+
+.home-logo {
+    display: block;
+    margin: auto;
+    width: 350px;
+}
+
+.home-what-we-do {
+    padding: 15px;
+    width: 95%;
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+    opacity: 1;
+    color: gray;
+}
+
+.home-what-we-do-wr {
+    width: 70%;
+    display: block;
+    margin: auto;
+    background-color: white;
+    opacity: 1.0;
+}
+
+.team-button {
+    display: block;
+    margin: auto;
+}
+
+.home-block-2 {
+    background-color: rgba(137, 188, 205, 1);
+}
+
+.team-title {
+    text-align: center;
+    font-size: 85px;
+    color: white;
+    font-family: 'Gochi Hand', cursive;
+}
+
+.job-title {
+    color: rgba(230, 230, 230, 1);
+    font-size: 15px;
+}
+
+.person-name {
+    text-align: center;
+    font-size: 25px;
+    /*color: rgba(255, 194, 168, 1);*/
+    color: white;
+}
+
+.team-member {
+    text-align: center;
+}
+
+.team-image {
+    background-image: url("/images/team.jpeg");
+    width: 70vw;
+}
+
+.team-member-img {
+    width: 300px;
+    height: 300px;
+}
+
+.join {
+    color: rgba(137, 188, 205, 1);
+    font-size: 40px;
+}
+
+.bio {
+    padding: 15px;
+    background-color: white;
+    color: black;
+    display: block;
+    margin: auto;
+    width: 300px;
+    font-size: 17px;
+}

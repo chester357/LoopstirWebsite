@@ -1,48 +1,51 @@
 
 <div class="row">
+    <a name="contactv" class="link"></a>
     <div class="col-xs-12 home-block-1">
-        <div class="row">
+        <div class="row v-center">
             <div class="col-xs-12">
-                <br><br><br><br><br><br>
                 <!-- <h1 class="home-title">Loopstir</h1> -->
-                <img class="home-logo" src="/images/NameWithLogo2.png" alt="" />
+                <img class="home-logo" src="/images/OwlWithName.png" alt="" />
                 <br><br><br><br>
                 <h3 class="join">Join Our Mailing List</h3>
                 <br>
                 <form class="form-inline">
                     <div class="form-group">
-                        <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Email">
+                        <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Email" ng-model="contact.email">
                     </div>
-                    <button type="submit" class="btn btn-default">Join!</button>
+                    <button type="submit" class="btn btn-default" ng-click="addContact(contact)">Join!</button>
                 </form>
             </div>
         </div>
     </div>
 </div>
 
-<!-- <div class="home-what-we-do-wr">
-    <p class="home-what-we-do">
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-        when an unknown printer took a galley of type and scrambled it to make a
-        type specimen book. It has survived not only five centuries, but also the
-        leap into electronic typesetting, remaining essentially unchanged.
-    </p>
+<div class="row">
+    <div class="col-xs-12 home-block-4">
+        <div class="row v-center">
+            <div class="col-xs-12">
+                <h1 class="find-title">Find Your Next Adventure</h1>
+            </div>
+        </div>
+    </div>
 </div>
-<br><br><br><br> -->
 
 <div class="row">
+    <a name="about" class="link"></a>
     <div class="col-xs-12 home-block-3">
         <div class="row">
             <div class="col-xs-12">
                 <div class="home-what-we-do-wr">
                     <br><br><br><br>
                     <p class="home-what-we-do">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                        when an unknown printer took a galley of type and scrambled it to make a
-                        type specimen book. It has survived not only five centuries, but also the
-                        leap into electronic typesetting, remaining essentially unchanged.
+                        With the Loopstir mobile app, you are only one click
+                        away from diving into any local community. Whether
+                        you're a local or just tying find out what the locals
+                        are doing Loopstir will allow you to discover new events
+                        ranging from nightlife, food & drink, to concerts. Our app will
+                        be your personal tour guide for wherever you’re located
+                        by recommending events near you and connecting you to
+                        people with similar interest.
                     </p>
                     <br><br><br><br>
                 </div>
@@ -51,12 +54,12 @@
     </div>
 </div>
 
+
 <div class="row">
+    <a name="team" class="link"></a>
     <div class="col-xs-12 home-block-2">
         <div class="row">
-            <br><br>
             <h1 class="team-title">The Team!</h1>
-            <br>
         </div>
         <div class="row team-member">
             <div class="col-md-4">

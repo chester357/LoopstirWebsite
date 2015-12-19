@@ -5,10 +5,32 @@
     min-height: 100vh;
 }
 
+.home-block-4 {
+    background-image: url("/images/concert_crowd.jpg");
+    min-height: 93vh;
+}
+
+.v-center {
+    text-align: center;
+    position: relative;
+    top: 50vh;
+    transform: translateY(-50%);
+}
+
 .home-block-3 {
     /*background-image: url("/images/chicagogreat2.jpg");*/
     background-color: white;
     text-align: center;
+}
+
+.find-title {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    font-size: 85px;
+    font-family: 'Gochi Hand', cursive;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 30px;
 }
 
 .home-title {
@@ -47,7 +69,9 @@
 }
 
 .home-block-2 {
-    background-color: rgba(137, 188, 205, 1);
+    /* Teal Blue */
+    /*background-color: rgba(80, 116, 130, 1);*/
+    background: linear-gradient(180deg, rgba(80, 116, 130, 0.60), rgba(80, 116, 130, 1));
 }
 
 .team-title {
@@ -84,7 +108,7 @@
 }
 
 .join {
-    color: rgba(137, 188, 205, 1);
+    color: rgba(80, 116, 130, 1);
     font-size: 40px;
 }
 
@@ -96,4 +120,10 @@
     margin: auto;
     width: 300px;
     font-size: 17px;
+}
+
+.link {
+    position: relative;
+    top: -50px;
+    display: block;
 }

@@ -1,6 +1,6 @@
 .home-block-1 {
     /*background-image: url("/images/chicagogreat2.jpg");*/
-    background-color: black;
+    background-color: white;
     text-align: center;
     min-height: 100vh;
 }
@@ -25,11 +25,12 @@
 
 .find-title {
     display: inline-block;
-    color: white;
+    color: rgba(0, 0, 0, 0.75);
     text-align: center;
     font-size: 85px;
     font-family: 'Gochi Hand', cursive;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
     padding: 30px;
 }
 
@@ -41,7 +42,7 @@
 .home-logo {
     display: block;
     margin: auto;
-    width: 350px;
+    width: 200px;
 }
 
 .home-what-we-do {
@@ -71,13 +72,27 @@
 .home-block-2 {
     /* Teal Blue */
     /*background-color: rgba(80, 116, 130, 1);*/
-    background: linear-gradient(180deg, rgba(80, 116, 130, 0.60), rgba(80, 116, 130, 1));
+    background: linear-gradient(135deg, rgba(80, 116, 130, 0.40), rgba(80, 116, 130, 0.7));
 }
 
 .team-title {
     text-align: center;
     font-size: 85px;
     color: white;
+    font-family: 'Gochi Hand', cursive;
+}
+
+.about-title {
+    text-align: center;
+    font-size: 85px;
+    color: rgba(0, 0, 0, 0.75);
+    font-family: 'Gochi Hand', cursive;
+}
+
+.loopstir-title {
+    text-align: center;
+    font-size: 100px;
+    color: rgba(0, 0, 0, 0.75);
     font-family: 'Gochi Hand', cursive;
 }
 

@@ -5,9 +5,29 @@
     min-height: 100vh;
 }
 
-.home-block-4 {
+/*.home-block-4 {
     background-image: url("/images/concert_crowd.jpg");
-    min-height: 93vh;
+    background-size: 100%;
+}*/
+
+.background-image {
+    position: relative;
+    /*z-index: 1*/
+}
+
+.find-title {
+    position: absolute;
+    top: 50%;
+    /*left: 0;*/
+    /*z-index: 2;*/
+    /*display: inline-block;*/
+    color: rgba(0, 0, 0, 0.75);
+    text-align: center;
+    font-size: 85px;
+    font-family: 'Gochi Hand', cursive;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
+    padding: 30px;
 }
 
 .v-center {
@@ -48,6 +68,7 @@
 .home-what-we-do {
     padding: 15px;
     width: 95%;
+    position: relative;
     display: block;
     margin: auto;
     text-align: center;

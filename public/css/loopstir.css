@@ -1,0 +1,135 @@
+
+/* SHARED ------------------------------------------------------------------- */
+
+ .v-center {
+     text-align: center;
+     position: relative;
+     top: 50vh;
+     transform: translateY(-50%);
+ }
+
+ /*a {
+     position: relative;
+     top: -50px;
+     display: block;
+ }*/
+
+/* CONTACT ROW -------------------------------------------------------------- */
+
+.contact-row {
+    background-color: white;
+    min-height: 100vh;
+    position: relative;
+    top: 40px;
+    height: 100vh;
+}
+
+.contact-title {
+    text-align: center;
+    font-size: 12vw;
+    color: rgba(0, 0, 0, 0.75); /* gray */
+    font-family: 'Gochi Hand', cursive;
+}
+
+.contact-join-title {
+    text-align: center;
+    color: rgba(80, 116, 130, 1);
+}
+
+.logo {
+    text-align: center;
+    display: block;
+    margin: auto;
+    max-height: 25vh;
+    max-width: 25vw;
+}
+
+.contact-form {
+    text-align: center;
+}
+
+/* ABOUT ROW ---------------------------------------------------------------- */
+
+.about-row {
+    background-color: white;
+}
+
+.about-title {
+    padding-top: 90px;
+    text-align: center;
+    font-size: 60px;
+    color: rgba(0, 0, 0, 0.75);
+    font-family: 'Gochi Hand', cursive;
+}
+
+.about-para {
+    width: 75vw;
+    display: block;
+    margin: auto;
+    color: gray;
+    padding-bottom: 50px;
+}
+
+/* RAND ROW ----------------------------------------------------------------- */
+
+.rand-title {
+    position: absolute;
+
+    top: 40%;
+    transform: translateY(-50%);
+
+    left: 50%;
+    transform: translateX(-50%);
+
+    font-size: 7vw;
+    text-align: center;
+
+    color: rgba(0, 0, 0, 0.75);
+    font-family: 'Gochi Hand', cursive;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
+}
+
+.rand-img {
+    width: 100vw;
+    margin-left: -15px;
+    margin-right: -15px;
+    position: relative;
+    text-align: center;
+}
+
+/* TEAM ROW ----------------------------------------------------------------- */
+
+.team-row {
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.95));
+}
+
+.team-title {
+    padding-top: 50px;
+    text-align: center;
+    font-size: 60px;
+    color: rgba(80, 116, 130, 1);
+    font-family: 'Gochi Hand', cursive;
+}
+
+.team-member-name {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.team-member-title {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.6);
+    padding-bottom: 5vh;
+}
+
+.team-member-img {
+    display: block;
+    margin: auto;
+}
+
+.team-member-bio {
+    margin: 3vw 3vw 3vw 3vw;
+    color: rgba(255, 255, 255, 0.7);
+    padding-bottom: 75px;
+}

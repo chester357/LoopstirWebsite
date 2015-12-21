@@ -133,3 +133,31 @@
     color: rgba(255, 255, 255, 0.7);
     padding-bottom: 75px;
 }
+
+/* SOCIAL ROW --------------------------------------------------------------- */
+
+.social-row {
+    padding-bottom: 100px;
+    background: linear-gradient(135deg, white, rgba(0, 0, 0, 0.15));
+    /*background: linear-gradient(135deg, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.1));*/
+}
+
+.social-title {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 60px;
+    color: rgba(80, 116, 130, 1);
+    font-family: 'Gochi Hand', cursive;
+}
+
+.social-icon {
+    padding: 30px 30px 10px 30px ;
+    display: block;
+    margin: auto;
+}
+
+.socal-at-title {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+}

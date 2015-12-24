@@ -8,32 +8,26 @@
      transform: translateY(-50%);
  }
 
- /*a {
-     position: relative;
-     top: -50px;
-     display: block;
- }*/
-
 /* CONTACT ROW -------------------------------------------------------------- */
 
 .contact-row {
     background-color: white;
-    min-height: 100vh;
+    min-height: 95vh;
     position: relative;
     top: 40px;
-    height: 100vh;
+    padding-bottom: 10vh;
 }
 
 .contact-title {
     text-align: center;
-    font-size: 12vw;
+    font-size: 75px;
     color: rgba(0, 0, 0, 0.75); /* gray */
     font-family: 'Gochi Hand', cursive;
 }
 
 .contact-join-title {
     text-align: center;
-    color: rgba(80, 116, 130, 1);
+    color: rgba(80, 116, 130, 1); /* teal blue */
 }
 
 .logo {
@@ -48,14 +42,20 @@
     text-align: center;
 }
 
+.contact-join-btn {
+    color: rgba(80, 116, 130, 1);
+    border-color: rgba(80, 116, 130, 1);
+}
+
 /* ABOUT ROW ---------------------------------------------------------------- */
 
 .about-row {
-    background-color: white;
+    background-image: url("/images/concert_crowd.jpg");
 }
 
 .about-title {
-    padding-top: 90px;
+    padding-top: 70px;
+    padding-bottom: 20px;
     text-align: center;
     font-size: 60px;
     color: rgba(0, 0, 0, 0.75);
@@ -63,11 +63,15 @@
 }
 
 .about-para {
-    width: 75vw;
+    max-width: 900px;
     display: block;
     margin: auto;
-    color: gray;
-    padding-bottom: 50px;
+    color: rgba(255, 255, 255, 0.65);
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 30px;
+    border-radius: 20px;
+    font-size: 20px;
+    background-repeat: no-repeat;
 }
 
 /* RAND ROW ----------------------------------------------------------------- */
@@ -81,7 +85,8 @@
     left: 50%;
     transform: translateX(-50%);
 
-    font-size: 7vw;
+    /*font-size: 6em;*/
+    font-size: 10vh;
     text-align: center;
 
     color: rgba(0, 0, 0, 0.75);
@@ -96,6 +101,7 @@
     margin-right: -15px;
     position: relative;
     text-align: center;
+    max-height: 90vh;
 }
 
 /* TEAM ROW ----------------------------------------------------------------- */

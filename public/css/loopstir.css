@@ -5,14 +5,21 @@
      text-align: center;
      position: relative;
      top: 50vh;
-     transform: translateY(-50%);
+     transform: translateY(-60%);
  }
+
+/* BODY --------------------------------------------------------------------- */
+
+body {
+    /*min-width: 800px;*/
+}
+
 
 /* CONTACT ROW -------------------------------------------------------------- */
 
 .contact-row {
     background-color: white;
-    min-height: 97vh;
+    min-height: 100vh;
     position: relative;
     top: 40px;
     padding-bottom: 10vh;
@@ -49,36 +56,56 @@
 
 /* ABOUT ROW ---------------------------------------------------------------- */
 
-.carousel-inner > .item > img,
-  .carousel-inner > .item > a > img {
-      max-width: 100vw;
-      max-height: 70vh;
-      margin: auto;
-  }
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
 
-.about-caption {
+/* Carousel base class */
+.carousel {
+  height: 500px;
+  /*margin-bottom: 60px;*/
+}
 
+.about-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+}
+
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 500px;
+  background-color: black;
+}
+
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
 }
 
 .about-row {
     background-color: black;
-    padding-bottom: 100px;
-}
-
-.about-title {
-    text-align: center;
-    font-size: 60px;
-    font-family: 'Gochi Hand', cursive;
-    color: rgba(80, 116, 130, 1);
-    padding-top: 30px;
-    padding-bottom: 30px;
-    margin-left: -15px;
-    margin-right: -15px;
-    background: rgba(0, 0, 0, 1);
 }
 
 .about-para {
-    padding: 20px;
+    font-size: 20px;
+}
+
+.about-caption {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 15px;
+}
+
+.about-title {
+    color: white;
 }
 
 /* RAND ROW ----------------------------------------------------------------- */

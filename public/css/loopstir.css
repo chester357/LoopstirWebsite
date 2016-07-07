@@ -1,3 +1,170 @@
+.home-block-1 {
+    /*background-image: url("/images/chicagogreat2.jpg");*/
+    background-color: white;
+    text-align: center;
+    min-height: 100vh;
+}
+
+/*.home-block-4 {
+    background-image: url("/images/concert_crowd.jpg");
+    background-size: 100%;
+}*/
+
+.background-image {
+    position: relative;
+    /*z-index: 1*/
+}
+
+.find-title {
+    position: absolute;
+    top: 50%;
+    /*left: 0;*/
+    /*z-index: 2;*/
+    /*display: inline-block;*/
+    color: rgba(0, 0, 0, 0.75);
+    text-align: center;
+    font-size: 85px;
+    font-family: 'Gochi Hand', cursive;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.v-center {
+    text-align: center;
+    position: relative;
+    top: 50vh;
+    transform: translateY(-50%);
+}
+
+.home-block-3 {
+    /*background-image: url("/images/chicagogreat2.jpg");*/
+    background-color: white;
+    text-align: center;
+}
+
+.find-title {
+    display: inline-block;
+    color: rgba(0, 0, 0, 0.75);
+    text-align: center;
+    font-size: 85px;
+    font-family: 'Gochi Hand', cursive;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.home-title {
+    text-align: center;
+    font-size: 70px;
+}
+
+.home-logo {
+    display: block;
+    margin: auto;
+    width: 200px;
+}
+
+.home-what-we-do {
+    padding: 15px;
+    width: 95%;
+    position: relative;
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+    opacity: 1;
+    color: gray;
+}
+
+.home-what-we-do-wr {
+    width: 70%;
+    display: block;
+    margin: auto;
+    background-color: white;
+    opacity: 1.0;
+}
+
+.team-button {
+    display: block;
+    margin: auto;
+}
+
+.home-block-2 {
+    /* Teal Blue */
+    /*background-color: rgba(80, 116, 130, 1);*/
+    background: linear-gradient(135deg, rgba(80, 116, 130, 0.40), rgba(80, 116, 130, 0.7));
+}
+
+.team-title {
+    text-align: center;
+    font-size: 85px;
+    color: white;
+    font-family: 'Gochi Hand', cursive;
+}
+
+.about-title {
+    text-align: center;
+    font-size: 85px;
+    color: rgba(0, 0, 0, 0.75);
+    font-family: 'Gochi Hand', cursive;
+}
+
+.loopstir-title {
+    text-align: center;
+    font-size: 100px;
+    color: rgba(0, 0, 0, 0.75);
+    font-family: 'Gochi Hand', cursive;
+}
+
+.job-title {
+    color: rgba(230, 230, 230, 1);
+    font-size: 15px;
+}
+
+.person-name {
+    text-align: center;
+    font-size: 25px;
+    /*color: rgba(255, 194, 168, 1);*/
+    color: white;
+}
+
+.team-member {
+    text-align: center;
+}
+
+.team-image {
+    background-image: url("/images/team.jpeg");
+    width: 70vw;
+}
+
+.team-member-img {
+    width: 300px;
+    height: 300px;
+}
+
+.join {
+    color: rgba(80, 116, 130, 1);
+    font-size: 40px;
+}
+
+.bio {
+    padding: 15px;
+    background-color: white;
+    color: black;
+    display: block;
+    margin: auto;
+    width: 300px;
+    font-size: 17px;
+}
+
+.link {
+    position: relative;
+    top: -50px;
+    display: block;
+}
+
+
 
 /* SHARED ------------------------------------------------------------------- */
 

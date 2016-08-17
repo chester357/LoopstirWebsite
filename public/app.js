@@ -22,5 +22,5 @@ app.run(function ($rootScope) {
 
     $rootScope.debug = false;
     $rootScope.loopstirApiDev = 'http://api.dev.loopstir.com';
-    $rootScope.loopstirApiProd = 'http://api.loopstir.com';
+    $rootScope.loopstirApiProd = 'https://api.loopstir.com';
 });

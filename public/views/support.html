@@ -1,0 +1,41 @@
+<div class="row support-body">
+    <div class="col-lg-8 col-lg-offset-2 support-col">
+        <div class="row">
+            <div class="col-md-6 message-input">
+                <label for="form_name">Firstname</label>
+                <input ng-model="email.firstname" id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname" required="required" data-error="Firstname is required.">
+            </div>
+            <div class="col-md-6 message-input">
+                <label for="form_lastname">Lastname</label>
+                <input ng-model="email.lastname" id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname" required="required" data-error="Lastname is required.">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 message-input">
+                <label for="form_email">Email</label>
+                <input ng-model="email.email" id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email" required="required" data-error="Valid email is required.">
+            </div>
+            <div class="col-md-6 message-input">
+                <label for="form_phone">Phone</label>
+                <input ng-model="email.phonenumber" id="form_phone" type="tel" name="phone" class="form-control" placeholder="Please enter your phone">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 message-input">
+                <label for="form_message">Message</label>
+                <textarea ng-model="email.message" id="form_message" name="message" class="form-control" placeholder="Message for Loopstir Support" rows="4" required="required" data-error="Please,leave us a message."></textarea>
+            </div>
+            <div class="col-md-12 message-input">
+                <button class="btn btn-primary btn-send-message center-block" ng-click="sendSupportEmail()">Send message</button>
+            </div>
+        </div>
+        <div class="row">
+            <div ng-show="success == true" id="email-success" class="col-md-12">
+                <h1 class="email-result">Thanks, someone from Loopstir will respond within 24 hours.</h1>
+            </div>
+            <div ng-show="failure == true" class="col-md-12">
+                <h1 class="email-result">Sorry, there was a problem sending this message.</h1>
+            </div>
+        </div>
+    </div>
+</div>

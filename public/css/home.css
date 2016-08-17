@@ -12,6 +12,28 @@ body {
     background-color: rgba(0, 0, 0, 0);
 }
 
+.support-body {
+    padding: 50px 0px;
+}
+
+.btn-send-message {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.message-input {
+    margin-top: 20px;
+    font-size: 30px;
+    color: white;
+}
+
+.email-result {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
 .block-2 {
     padding: 100px 0px;
 }

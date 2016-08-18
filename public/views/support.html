@@ -27,8 +27,12 @@
             </div>
             <div class="col-md-12 message-input">
                 <button class="btn btn-primary btn-send-message center-block" ng-click="sendSupportEmail()">Send message</button>
+                <div ng-show="sending == true" class="loader"></div>
             </div>
         </div>
+        <!-- <div class="row">
+            <div ng-show="sending == true" class="loader"></div>
+        </div> -->
         <div class="row">
             <div ng-show="success == true" id="email-success" class="col-md-12">
                 <h1 class="email-result">Thanks, someone from Loopstir will respond within 24 hours.</h1>

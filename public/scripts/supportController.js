@@ -12,8 +12,11 @@ app.controller('supportController', ['$rootScope','$scope', '$http', '$timeout',
 
     $scope.failure = false;
     $scope.success = false;
+    $scope.sending = false;
 
     $scope.sendSupportEmail = function() {
+
+        $scope.sending = true;
 
         console.log("Sending email");
 
@@ -36,6 +39,7 @@ app.controller('supportController', ['$rootScope','$scope', '$http', '$timeout',
             }
         }
 
+
         if ($rootScope.debug) {
             post.url = $rootScope.loopstirApiDev + '/api/email/support';
         }
@@ -43,8 +47,12 @@ app.controller('supportController', ['$rootScope','$scope', '$http', '$timeout',
             post.url = $rootScope.loopstirApiProd + '/api/email/support';
         }
 
+        console.log(post);
+
         $http(post)
         .then(function successCallback(response) {
+
+            $scope.sending = false;
 
             console.log(response);
 
@@ -57,13 +65,16 @@ app.controller('supportController', ['$rootScope','$scope', '$http', '$timeout',
             };
 
             $scope.success = true;
-            $timeout(clearSuccess, 3000);
+            $timeout(clearSuccess, 5000);
 
         }, function errorCallback(response) {
+
+            $scope.sending = false;
+
             console.log(response);
 
             $scope.failure = true;
-            $timeout(clearFailure, 3000);
+            $timeout(clearFailure, 5000);
         });
     };
 
